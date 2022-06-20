@@ -10,13 +10,6 @@
 # Discord Mass DM GO
 **DMDGO** is a Multi-threaded Discord Self-Bot primarily used for mass messaging users on Discord. It has numerous other quality features to enhance the user experience and allowing the user to target the most users. 
 
-## Community 
-
-[Telegram Server for Support](https://t.me/tosviolators)
-
-[Discord Community Server](https://discord.gg/T9FBNBQb4d)
-
-
 ## **Features** :
 ### Token Utilities
 - Avatar Changer
@@ -178,15 +171,6 @@ Name | Type | Recommended Value | Description |
 |`max_anti_raid_queue`| int | 20 |To ensure someone does not spam reactions to jam your bot and lock your instances, you can set the maximum queue size. Any reactions above this would be discarded. This will easily help bypass mass emoji reacts breaking the bot. |
 |`max_dms_per_token`| int | 0 | Maximum DMs you want your tokens to send. Set to 0 for unlimited.
 
-
-
-
-
-
-
-
-
-
 ### Offset 
 Offset is a duration in milliseconds. As the name suggests this offsets or displaces the goroutines (threads) by a short period of time to ensure that all accounts don't start at the exact same second. What is the recommended offset? If you have less than 100 tokens or are using short individual delays, it does not matter. You can put any offset like 50-300. But if you are running a large number of tokens, you should set your individual and rate limit delays to 60 each or higher. Your offset will come with this formula - (individual delay/number of tokens) * 1000 This ensures your tokens start evenly spread out throughout the individual delay period. 
 You can do more interesting things with offset. Normally to bypass Anti-Raid bots like Beemo or Wick, you'd have to join your tokens with high delays then wait for all of them to join to start DMing. Now with Offset you can make it so that one account joins and starts DMing, 30 seconds or any duration of your choice later the second account joins and start DMing so you save A LOT of time. How to do this? Set your offset to the duration you want your accounts to join in, like 30,000 - 60,000 (Remember offset is in milliseconds) and don't join your accounts to the server. Before Mass DMing, you'd get an option for advanced settings. Enter the server invite and serverid there. Use multiple proxies/ rotating proxies to prevent Discord server IP bans by the Anti-Raid bots. This won't work while Proxyless. 
@@ -299,14 +283,6 @@ Leave a star on the repository, helps out intensively! You can also buy me a coo
 - *SOL*: 8QyA9dCetgVMxU2AjzfM3DrY1i3mXuE8nsgLkvAX1hTe
 
 - *LTC*: LN5UPbL31TcPzpBKFbsNKZ5BxwUzKcyi1F
-
-## Contact
-There are a lot of impersonators, please make sure you're dealing with the correct username. 
-
-Telegram: https://t.me/campingarunner (This is my only Telegram)
-
-Mail: v4nsh4j@protonmail.com (For Business Enquiries)
-
 
 ## Credits
 DMDGO has not been a One man show! I would like to thank everyone for their contributions and my patreons. Special thanks to my lads -> 
